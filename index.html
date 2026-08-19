@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Section Home -->
+  <section id="home">
+    <h1>Bienvenue sur mon Portfolio</h1>
+    <p>Développeur Web / Étudiant GoMyCode</p>
+  </section>
+
+  <!-- Section About -->
+  <section id="about">
+    <h2>About</h2>
+    <form>
+      <label for="nom">Nom :</label><br>
+      <input type="text" id="nom" name="nom" value="Skander Bouaffad"><br><br>
+
+      <label for="bio">Bio :</label><br>
+      <textarea id="bio" name="bio" rows="4" cols="40">Étudiant en développement web, passionné par la création de sites et d'applications.</textarea><br><br>
+
+      <label for="age">Âge :</label>
+      <input type="number" id="age" name="age"><br><br>
+    </form>
+  </section>
+
+  <!-- Section Work -->
+  <section id="work">
+    <h2>Work</h2>
+    <form>
+      <label for="projet1">Nom du projet 1 :</label><br>
+      <input type="text" id="projet1" name="projet1" placeholder="Ex: Site e-commerce"><br><br>
+
+      <label for="description1">Description du projet 1 :</label><br>
+      <textarea id="description1" name="description1" rows="3" cols="40" placeholder="Décrivez le projet ici..."></textarea><br><br>
+
+      <label for="lien1">Lien du projet :</label><br>
+      <input type="url" id="lien1" name="lien1" placeholder="https://..."><br><br>
+    </form>
+  </section>
+
+  <!-- Section Resume -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <form>
+      <label for="formation">Formation :</label><br>
+      <input type="text" id="formation" name="formation" value="GoMyCode - Développement Web"><br><br>
+
+      <label for="competences">Compétences :</label><br>
+      <select id="competences" name="competences">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JavaScript</option>
+        <option value="react">React</option>
+      </select><br><br>
+
+      <label for="experience">Expérience :</label><br>
+      <textarea id="experience" name="experience" rows="3" cols="40" placeholder="Décrivez votre expérience..."></textarea><br><br>
+    </form>
+  </section>
+
+  <!-- Section Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <label for="email">Email :</label><br>
+      <input type="email" id="email" name="email" placeholder="votre@email.com"><br><br>
+
+      <label for="telephone">Téléphone :</label><br>
+      <input type="tel" id="telephone" name="telephone" placeholder="+216 XX XXX XXX"><br><br>
+
+      <label for="message">Message :</label><br>
+      <textarea id="message" name="message" rows="4" cols="40" placeholder="Votre message..."></textarea><br><br>
+
+      <input type="submit" value="Envoyer">
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Skander Bouaffad - Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
